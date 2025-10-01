@@ -27,18 +27,17 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     position: fixed; 
     top: 0;         
-    width: 100%;     
     z-index: 1000; 
+    max-width: 1200px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .nav-menu {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    margin: 0 auto;
-    max-width: 1200px;
 }
-
 .nav-item {
     font-size: 20px;
     cursor: pointer;
